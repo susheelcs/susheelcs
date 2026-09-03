@@ -1,16 +1,29 @@
-## Hi there 👋
+# Hi, I'm Susheel 👋
 
-<!--
-**susheelcs/susheelcs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Engineer with experience in systems software, platform technologies, and open-source development.
 
-Here are some ideas to get you started:
+## 💻 Open Source Contributions
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Intel® Dynamic Platform and Thermal Framework (DPTF)
+
+I contributed to the **Intel Dynamic Platform and Thermal Framework (DPTF)** open-source project during my time at Intel.
+
+DPTF is a platform-level framework for power and thermal management.
+
+- 🔗 [Intel DPTF Open Source Project](https://github.com/intel/dptf)
+- 🔗 [My DPTF Fork](https://github.com/susheelcs/dptf)
+
+My historical contributions were made using my Intel GitHub/email identity and are preserved in the upstream project's Git history.
+
+## 🛠️ Technical Interests
+
+- Systems Software
+- C / C++
+- Linux
+- Platform & Firmware Technologies
+- Power and Thermal Management
+- Open Source
+
+## 📫 Connect with Me
+
+- GitHub: [@susheelcs](https://github.com/susheelcs)
