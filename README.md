@@ -1,62 +1,94 @@
-# Hi, I'm Susheel 👋
+# Hi, I'm Susheel Maurya 👋
 
-Software Engineer with experience in **systems software, platform technologies, power & thermal management, and open-source development**. Currently expanding my work into **Machine Learning**, with a focus on applying ML to real-world system telemetry and performance problems.
+**Software Engineer | Systems Software | Machine Learning | Open Source**
 
-## 💻 Open Source Contributions
+I am a software engineer with professional experience across **Adobe, Qualcomm, and Intel**. I currently work at **Adobe** and previously worked at **Qualcomm** and **Intel**.
 
-### Intel® Dynamic Platform and Thermal Framework (DPTF)
+My technical interests include systems software, Linux, platform technologies, power and thermal management, machine learning, natural language processing, and open-source development.
+
+## 💼 Professional Experience
+
+- **Adobe** — Currently working at Adobe
+- **Qualcomm** — Previous professional experience
+- **Intel** — Previous professional experience and open-source contribution to Intel DPTF
+
+## 🌐 Open-Source Contribution
+
+### Intel Dynamic Platform and Thermal Framework — DPTF
 
 I contributed to the **Intel Dynamic Platform and Thermal Framework (DPTF)** open-source project during my time at Intel.
 
-DPTF is a platform-level framework for power and thermal management.
+DPTF is a platform-level framework used for power and thermal management.
 
-* 🔗 [Intel DPTF Open Source Project](https://github.com/intel/dptf)
-* 🔗 [My DPTF Fork](https://github.com/susheelcs/dptf)
+- [Original Intel DPTF Project](https://github.com/intel/dptf)
+- [My DPTF Fork](https://github.com/susheelcs/dptf)
 
-My historical contributions were made using my Intel GitHub/email identity and are preserved in the upstream project's Git history.
+My historical contributions were made using my former Intel GitHub and email identity and remain preserved in the upstream Git history.
 
 ## 🤖 Machine Learning Projects
 
-### ML Thermal & Power Predictor
+### Named Entity Recognition
 
-Building a machine-learning system for predicting future thermal behavior from HPC system telemetry.
+Built a reproducible Named Entity Recognition pipeline to identify people, organizations, places, and temporal expressions in text.
 
-The project explores telemetry such as:
+The project uses the open GUM NER corpus, lexical and contextual feature engineering, a class-weighted LinearSVC model, and BIO-constrained sequence decoding.
 
-* CPU/system temperature
-* Power consumption
-* CPU frequency
-* System utilization
-* Historical sensor measurements
+**Evaluation on the held-out test set:**
 
-The goal is to use real-world telemetry to predict future temperatures and eventually identify potential thermal-risk conditions.
+| Metric | Result |
+|---|---:|
+| Token-level accuracy | 85.54% |
+| Entity-level precision | 55.10% |
+| Entity-level recall | 51.95% |
+| Strict entity-level F1 | 53.48% |
 
-**ML stack:** Python · Pandas · NumPy · Scikit-learn · XGBoost · Matplotlib
+This implementation establishes a classical machine-learning baseline that can be extended using transformer-based models.
 
-🔗 [ML Thermal & Power Predictor](https://github.com/susheelcs/ml-thermal-power-predictor)
+- [View Named Entity Recognition Project](https://github.com/susheelcs/named-entity-recognition)
 
-## 🛠️ Technical Interests
+### ML Thermal and Power Predictor
 
-* Systems Software
-* C / C++
-* Python
-* Linux
-* Machine Learning
-* Platform & Firmware Technologies
-* Power & Thermal Management
-* System Telemetry & Performance Analysis
-* Open Source
+Developing a machine-learning pipeline for predicting future CPU and system temperatures from real HPC telemetry.
 
-## 🚀 Currently Exploring
+The project explores signals such as:
 
-I'm particularly interested in applying **Machine Learning to systems engineering problems**, including:
+- CPU and system temperature
+- Power consumption
+- CPU frequency
+- CPU utilization
+- Historical sensor measurements
+- Workload information
 
-* Thermal prediction
-* Power optimization
-* System anomaly detection
-* Predictive resource management
-* Time-series telemetry analysis
+The initial objective is future-temperature prediction, followed by thermal-risk classification, power prediction, and anomaly detection.
 
-## 📫 Connect
+- [View ML Thermal and Power Predictor](https://github.com/susheelcs/ml-thermal-power-predictor)
 
-* GitHub: [@susheelcs](https://github.com/susheelcs)
+## 🛠️ Technical Skills
+
+**Programming**
+
+`C` · `C++` · `Python`
+
+**Systems and Platforms**
+
+`Linux` · `Systems Software` · `Platform Technologies` · `Power and Thermal Management` · `System Telemetry`
+
+**Machine Learning and NLP**
+
+`Scikit-learn` · `XGBoost` · `Pandas` · `NumPy` · `Named Entity Recognition` · `Time-Series Analysis`
+
+**Tools**
+
+`Git` · `GitHub` · `Pytest` · `Jupyter Notebook` · `Matplotlib`
+
+## 🚀 Current Focus
+
+- Applying machine learning to systems-engineering problems
+- Thermal and power prediction using real system telemetry
+- Natural language processing and Named Entity Recognition
+- Improving classical ML baselines using pretrained transformers
+- Building reproducible and well-tested open-source projects
+
+## 📫 Connect With Me
+
+- GitHub: [@susheelcs](https://github.com/susheelcs)
